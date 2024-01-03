@@ -8,6 +8,7 @@ import {
   slideInFromTop,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 const HeroContent = () => {
   return (
@@ -31,9 +32,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto "
         >
           <span>
-          Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
-          project experience
+            Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              the best{" "}
+            </span>
+            project experience
           </span>
         </motion.div>
         <motion.p
@@ -55,7 +59,7 @@ const HeroContent = () => {
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
-        <img
+        <Image
           src="/mainIconsdark.svg"
           alt="work icons"
           height={650}
