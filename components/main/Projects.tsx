@@ -11,21 +11,24 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/themedev.png"
-          title="Modern WordPress Theme Development"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum vitae sint quibusdam delectus tenetur!"
-        />
-        <ProjectCard
-          src="/reactweb.png"
-          title="Interactive React JS Website"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum vitae sint quibusdam delectus tenetur!"
-        />
-        <ProjectCard
-          src="/laravel.png"
-          title="Laravel Hospital Management System"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum vitae sint quibusdam delectus tenetur!"
-        />
+          <ProjectCard
+            src="/themedev.png"
+            title="Modern WordPress Theme Development"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum vitae sint quibusdam delectus tenetur!"
+            link="https://wdpf54.tech/theme_dev"
+          />
+          <ProjectCard
+            src="/reactweb.png"
+            title="Interactive React JS Website"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum vitae sint quibusdam delectus tenetur!"
+            link="https://example.com"
+          />
+          <ProjectCard
+            src="/laravel.png"
+            title="Laravel Hospital Management System"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum vitae sint quibusdam delectus tenetur!"
+            link="https://example.com"
+          />
       </div>
     </div>
   );
